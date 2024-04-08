@@ -12,7 +12,11 @@ composer php spark serve
 
 ### Most used Packages
 - UUID
-`composer require ramsey/uuid`
+```bash
+composer require ramsey/uuid
+```
 
 - Firebase JWT
-`composer require firebase/php-jwt`
+```bash
+composer require firebase/php-jwt
+```
