@@ -6,6 +6,8 @@ composer create-project codeigniter4/appstarter .
 ```
 ### Automate Initial Files
 Add [automate.py](https://github.com/fathah/codegniter-starter/blob/main/automate.py) to your root folder and run the following command
+
+*Note: Change the `folders` and `entity` names to match yours*
 ```bash
 python automate.py
 ```
