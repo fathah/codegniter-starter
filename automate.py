@@ -72,6 +72,7 @@ for folder in folders:
             file.write("{\n")
             file.write(f"    protected $table = '{entity[index]}';\n")
             file.write(f"    protected $primaryKey = 'id';\n\n")
+            file.write(f"    protected $allowedFields = [];\n\n")
             file.write("}\n")
     else:
         print(f"    📄 {file_name} already exists.")
